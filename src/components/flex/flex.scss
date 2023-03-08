@@ -1,0 +1,15 @@
+// import media query
+@import "../../styles/media-query.scss";
+
+.flex {
+  display: flex;
+  align-items: center;
+  gap: 2em;
+  flex-wrap: wrap;
+  flex-direction: row;
+
+  // Stack flex items vertically on mobile
+  @include xs {
+    flex-direction: column;
+  }
+}

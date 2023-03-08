@@ -1,0 +1,42 @@
+/* import fonts from Google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+/*
+○ Page background: color=#ffffff
+○ Category heading: color=#bac8d3
+○ Default font color: color=#121212
+○ Nominee card: color=#dae8fc
+○ Nominee card background hover: color=#d5e8d4
+○ Selected Nominee card: color=#d5e8d4
+○ Select button background: color=#f5f5f5;gradientColor=#b3b3b3
+○ Submit button background hover: color=#d5e8d4;gradientColor=#97d077
+ */
+
+/* Global variables */
+:root {
+  --heading-color: #bac8d3;
+  --text-color: #121212;
+  --card-bg-color: #dae8fc;
+  --card-hover-bg-color: #d5e8d4;
+  --selected-card-bg-color: #d5e8d4;
+  --select-btn-bg-color: #f5f5f5;
+  --select-btn-bg-grad: #b3b3b3;
+  --submit-btn-bg-color: #d5e8d4;
+  --submit-btn-bg-grad: #97d077;
+}
+
+/* Global styles */
+* {
+  box-sizing: border-box;
+  margin: 0.1em 0em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-family: "Roboto", sans-serif;
+}
